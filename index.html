@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title of game</title>
+    
+</head>
+<body id="opener" class="opener">
+     <div id="title" class="title">
+        <h1>HEading 1</h1>
+        <audio id="my_audio" src="/cards/space.mp3" autoplay="autoplay" loop="loop"></audio>
+     </div>
+
+     
+     <div id="instructions" class="instructions">
+        <p>Welcome blank
+            <br>
+            <br>
+            Instructions:
+            <br>
+            <br>
+            Match all
+        </p>
+        
+        
+     </div>
+     <div id="begin-button" class="begin-button">
+        <a class="button-play" href="game.html">Start Game</a>
+     </div>
+    
+
+<script>
+   let vid = document.getElementById("my_audio");
+   vid.volume = 0.1;
+   window.onload = function () {
+    document.getElementById("my_audio");
+    audio.play();
+}
+</script>
+   
+
+
+</body>
+</html>
