@@ -1,0 +1,231 @@
+/*opener background*/
+
+.opener {
+    background-image: url('../images/first-background-jpeg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.title h1 {
+    font-size: 70px;
+
+}
+
+.instructions {
+    position: fixed;
+
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+
+}
+
+.instructions p {
+    font-size: 25px;
+    display: flex;
+
+    max-width: 500px;
+    text-align: center;
+    text-align: justify;
+    line-height: 35px;
+    padding: 10px 1rem 1rem 1rem;
+
+
+}
+
+.begin-button {
+    position: fixed;
+    margin: auto;
+    top: 65%;
+    right: 47%;
+    height: 45px;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+  
+
+}
+
+.begin-button a {
+    color: white;
+    text-decoration: none;
+    font-family: "Merriweather";
+}
+
+.button-play:hover {
+  
+}
+
+/* game */
+.main-back {
+    background-image: url("../images/main-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.game-start-title h1 {
+    font-size: 6rem;
+    color: #fff;
+    text-align: center;
+
+
+}
+
+.game-board {
+    max-width: 1220px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    padding-top: 4em;
+
+}
+
+
+.card img {
+    width: 9rem;
+}
+
+.front {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.turns {
+    font-size: 2rem;
+    color: #fff;
+    justify-content: flex-end;
+    padding-bottom: 2rem;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 19%;
+    font-family: "Merriweather";
+
+
+}
+
+.card-front {
+    display: none;
+}
+
+.modal p {
+  
+    font-size: 2rem;
+   
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+
+    margin: 15% auto;
+    padding: 20px;
+
+    width: 50%;
+    text-align: center;
+    
+}
+.win p {
+ 
+    font-size: 2rem;
+   
+}
+
+.win {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.winner {
+  
+    margin: 15% auto;
+    padding: 20px;
+
+    width: 80%;
+    text-align: center;
+
+}
+
+/* Style the buttons */
+
+button, #play-again-buttons {
+  
+  
+}
+button, #play-again-buttons {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+
+}
+button, #exit-btns{
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+ 
+
+}
+button, #exit-btn{
+
+
+}
+.thank {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.thanks {
+
+    margin: 15% auto;
+    padding: 20px;
+
+    width: 80%;
+    text-align: center;
+
+}
+.thank p {
+ 
+    font-size: 2rem;
+
+}
