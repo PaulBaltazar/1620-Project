@@ -1,4 +1,8 @@
 /*opener background*/
+@font-face {
+    font-family: "mario";
+    src: url(../fonts/SuperMario256.ttf);
+}
 
 .opener {
     background-image: url('../images/first-background-jpeg.jpg');
@@ -33,6 +37,10 @@
     text-align: justify;
     line-height: 35px;
     padding: 10px 1rem 1rem 1rem;
+    font-family: "mario";
+    color: white;
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: black;
 
 
 }
@@ -124,8 +132,8 @@
     -webkit-text-stroke-width: .7px;
     -webkit-text-stroke-color: black;
     font-weight: bolder;
-    font-family: mario;
-    src: url("../fonts/SuperMario256.ttf");
+    font-family: "mario";
+    
 }
 
 .card-front {
