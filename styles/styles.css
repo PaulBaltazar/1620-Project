@@ -7,14 +7,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .title h1 {
     font-size: 70px;
 
 }
+
 
 .instructions {
     position: fixed;
@@ -23,9 +22,6 @@
     top: 36%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    
-
 }
 
 .instructions p {
@@ -42,27 +38,37 @@
 }
 
 .begin-button {
-    position: fixed;
+    position:fixed;
     margin: auto;
     top: 65%;
-    right: 47%;
+    right: 45%;
     height: 45px;
     width: 150px;
     text-align: center;
-    padding-top: 10px;
-    font-size: 25px;
-  
+    padding-top: 10px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 23px;
+    border: 1.5px solid #d08919;
+    border-radius: 10px;
+    background: linear-gradient(#f9f6b9, #d69622);
+  }
 
+.begin-button:hover {
+    transform: scale(1.1); 
 }
 
 .begin-button a {
-    color: white;
+    color: #f9f4e1;
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: #d6cc98;
     text-decoration: none;
-    font-family: "Merriweather";
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
 }
 
 .button-play:hover {
-  
+    color: white;
 }
 
 /* game */
@@ -107,11 +113,12 @@
 .turns {
     font-size: 2rem;
     color: #fff;
-    justify-content: flex-end;
-    padding-bottom: 2rem;
-    position: absolute;
+    justify-content: center;
+    /* position: absolute; */
     text-align: center;
-
+    border: 5px solid black;
+    padding: 5px;
+    background-image: url(Images/Brick_Block.png);
 
 
 }
