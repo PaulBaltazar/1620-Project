@@ -18,6 +18,10 @@
 
 }
 
+.header {
+    justify-content: center;
+    
+}
 
 .instructions {
     position: fixed;
@@ -31,7 +35,6 @@
 .instructions p {
     font-size: 25px;
     display: flex;
-
     max-width: 500px;
     text-align: center;
     text-align: justify;
@@ -87,13 +90,18 @@
 
 }
 
+.game-header {
+    justify-content: center;
+    text-align: center;
+}
+
 .game-start-title h1 {
     font-size: 6rem;
     color: #fff;
     text-align: center;
 
-
 }
+
 
 .game-board {
     max-width: 1220px;
@@ -110,6 +118,7 @@
 
 .card img {
     width: 9rem;
+    
 }
 
 .front {
