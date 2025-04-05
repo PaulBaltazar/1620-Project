@@ -14,7 +14,7 @@
 </div>
      <div id="title" class="title">
         
-        <audio id="my_audio" src="/cards/space.mp3" autoplay="autoplay" loop="loop"></audio>
+        <audio id="my_audio" src="audio/02. Title Screen.mp3" autoplay="autoplay" loop="loop"></audio>
      </div>
 
      
@@ -37,12 +37,13 @@
     
 
 <script>
-   let vid = document.getElementById("my_audio");
-   vid.volume = 0.1;
-   window.onload = function () {
-    document.getElementById("my_audio");
-    audio.play();
-}
+   let audio = document.getElementById("my_audio");
+    audio.volume = 0.5;
+
+    // Plays music once user clicks anywhere
+    window.addEventListener("click", function () {
+        audio.play();
+    });
 </script>
    
 
