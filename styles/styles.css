@@ -254,7 +254,7 @@ button, #exit-btn{
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.65);
     font-family: "mario";
     color: white;
     -webkit-text-stroke-width: .7px;
@@ -273,7 +273,7 @@ button, #exit-btn{
 .thank p {
     
     font-family: "mario";
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: white;
 
 }
