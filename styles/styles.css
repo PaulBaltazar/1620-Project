@@ -37,6 +37,7 @@
 .instructions p {
     font-size: 25px;
     display: flex;
+    margin-top: 125px;
     max-width: 500px;
     text-align: center;
     text-align: justify;
@@ -46,9 +47,8 @@
     color: white;
     -webkit-text-stroke-width: .3px;
     -webkit-text-stroke-color: black;
-
-
 }
+
 
 .begin-button {
     position:fixed;
@@ -168,6 +168,8 @@
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
+    font-family: "mario";
+    color: white;
 }
 
 .modal-content {
@@ -206,13 +208,19 @@
     width: 80%;
     text-align: center;
 
+    font-family: "mario";
+    color: white;
 }
 
 /* Style the buttons */
 
 button, #play-again-buttons {
-  
-  
+    font-family: "mario";
+    background-image: url('../images/Brick_Block.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+
 }
 button, #play-again-buttons {
     margin: 5px;
@@ -230,9 +238,13 @@ button, #exit-btns{
 
 }
 button, #exit-btn{
-
-
+    font-family: "mario";
+    background-image: url('../images/Brick_Block.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
 }
+
 .thank {
     display: none;
     position: fixed;
@@ -259,7 +271,9 @@ button, #exit-btn{
 
 }
 .thank p {
- 
+    
+    font-family: "mario";
     font-size: 2rem;
+    color: white;
 
 }
